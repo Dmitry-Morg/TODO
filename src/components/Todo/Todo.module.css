@@ -1,0 +1,26 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 696px;
+  background-color: #15202b;
+}
+
+.todoWrapper {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.todoTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.017em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
