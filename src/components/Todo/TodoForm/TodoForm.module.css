@@ -1,0 +1,9 @@
+.todoFormContainer {
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-top: 2px solid #38444D;
+  border-bottom: 2px solid #38444D;
+  margin-bottom: 20px;
+}

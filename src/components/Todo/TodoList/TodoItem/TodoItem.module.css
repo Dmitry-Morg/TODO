@@ -1,0 +1,37 @@
+.todoItemContainer {
+  display: flex;
+  padding-top:7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: 2px solid #38444D;
+  margin-bottom: 10px;
+}
+
+.todoItemText {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.017em;
+  color: #8B98A5;
+}
+
+.todoItemTextDone {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.017em;
+  color: #8B98A5;
+  text-decoration: line-through;
+}

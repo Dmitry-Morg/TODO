@@ -1,0 +1,53 @@
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:10px;
+}
+
+.checkBoxContainer input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border: 2px solid #1D9BF0;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkBoxContainer input.checked {
+  position: relative;
+}
+
+.checkBoxContainer input.checked::before {
+  content: "\2714";
+  font-size: 1.3em;
+  color: #1D9BF0;
+  position: absolute;
+  right: 2px;
+  top: 0px;
+}
+
+
+
+
+.checkBoxText {
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.017em;
+  color: #8B98A5;
+}
+
+.checkBoxItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D9BF0;
+  font-size: 15px;
+}
