@@ -1,0 +1,22 @@
+.todoShowContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.todoShowTitle {
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.017em;
+  color: #8B98A5;
+}
+
+.todoShowCheckBox {
+  display: flex;
+  justify-content: space-between;
+}

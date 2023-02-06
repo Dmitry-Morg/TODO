@@ -1,0 +1,7 @@
+.todoFilterContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom:20px;
+  border-bottom: 2px solid #38444D;
+  margin-bottom:20px;
+}
